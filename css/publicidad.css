@@ -1,0 +1,39 @@
+.Publicidad {
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.tituloPublicidad h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.parrafoPublicidad p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* BOTON ---------------------------------- */
+.buttonPublicidad {
+  width: 50%;
+  height: 60px;
+  margin: 10px;
+
+  background: #18181862;
+  border: none;
+  box-shadow: 10px 10px 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.buttonPublicidad:hover {
+  background: #74606062;
+}
+
+.buttonPublicidad:active {
+  box-shadow: none;
+  box-shadow: 5px 5px 5px;
+}
