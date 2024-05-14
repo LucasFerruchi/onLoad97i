@@ -1,5 +1,7 @@
 // import publicidad
+import { Publicidad } from "./publicidad.js";
 // import footer
+import { Footer } from "./footer.js";
 
 const containerFormContact = document.getElementById("containerFormContact");
 
@@ -36,4 +38,6 @@ function contactForm() {
 
 window.onload = function () {
   contactForm();
+  Publicidad();
+  Footer();
 };
